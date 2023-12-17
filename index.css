@@ -1,0 +1,90 @@
+:root {
+    --bg: rgb(17, 17, 27);
+    --colour: rgb(220, 224, 232);
+    --headings: rgb(114, 135, 253);
+    --colour-html: rgb(223, 142, 29);
+    --colour-css: rgb(32, 159, 181);
+    --div-bg: rgb(35, 38, 52);
+    --colour-link: rgb(242, 213, 207);
+    --colour-hr: rgb(136, 57, 239);
+}
+
+* {
+    color: var(--colour);
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 70%;
+    height: 70%;
+    background-color: var(--div-bg);
+    overflow-y: scroll;
+    padding: 10px;
+    border-radius: 30px 10px;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 1px;
+}
+
+h1 {
+    font-family: 'Rubik Doodle Shadow';
+    text-align: center;
+}
+
+.heading-01,
+.heading-02,
+.heading-03,
+.heading-04,
+.heading-05 {
+    color: var(--headings);
+}
+
+#html {
+    color: var(--colour-html);
+}
+
+#css {
+    color: var(--colour-css);
+}
+
+#js {
+    color: #FFEB3B;
+}
+
+#js #span {
+    color: var(--colour);
+}
+
+#pro {
+    text-decoration: none;
+    color: var(--colour-link);
+}
+
+ul .some {
+    list-style: none;
+}
+
+#insta,
+#twi {
+    text-decoration: none;
+}
+
+#insta-icon,
+#twi-icon {
+    margin-left: 10px;
+}
+
+hr {
+    background: var(--headings);
+    height: 3px;
+    border: none;
+    border-radius: 10px;
+}
